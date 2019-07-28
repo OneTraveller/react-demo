@@ -1,0 +1,1 @@
+export const pList = ['苹果手机', '华为手机', 'vivo手机'];

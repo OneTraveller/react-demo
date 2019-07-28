@@ -1,0 +1,21 @@
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+.fade.enter, .fade.exit-done, .fade.exit-active {
+  opacity: 0;
+  transition: opacity .8s ease-in;
+}
+.fade.enter-done, .fade.exit, .fade.enter-active {
+  opacity: 1;
+  transition: opacity .8s ease-in;
+}
+
+.box {
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+}
